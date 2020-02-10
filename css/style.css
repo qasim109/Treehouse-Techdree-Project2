@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Verela Round', sans-serif;
 	line-height: 1.6;
 	margin: 0;
 	display: block;
@@ -26,7 +26,7 @@ a {
 
 h1{
 
-margin-top: 1;
+margin-top: 1em;
 font-size: 1.5em;
 
 }
@@ -129,7 +129,7 @@ figure {
 }
 
 .headline {
-	margin-bottom: 1.5;
+	margin-bottom: 1.5em;
 }
 
 .profile {
@@ -157,6 +157,10 @@ font-size: 1.2em;
 
 @media (min-width: 768px) {
 
+	.Top {
+		display: none;
+
+	}
 	.container {
 		width: 90%;
 		margin: 0 auto;
