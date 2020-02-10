@@ -153,12 +153,21 @@ font-size: 1.2em;
 
 		text-align: center;
 	}
+
+	.full {
+		display: none;
+
+	}
 /* Media Queries */
 
 @media (min-width: 768px) {
 
 	.Top {
 		display: none;
+
+	}
+	.full {
+		display: inline;
 
 	}
 	.container {
